@@ -10,3 +10,9 @@ describe('HelloWorld.vue', () => {
     expect(wrapper.text()).toMatch(msg)
   })
 })
+//其望回傳的文字符合 msg
+
+const number = 2
+test('test: is 2', () => {
+  expect(number).toBe(2)
+})
